@@ -17,5 +17,4 @@ def find_the_cheese(array)# code an argument here
   cheese = cheese_types & array
   
     return cheese.join
-  end
 end
