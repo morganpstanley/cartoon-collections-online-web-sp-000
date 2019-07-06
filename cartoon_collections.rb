@@ -15,6 +15,9 @@ end
 def find_the_cheese(array)# code an argument here
   cheese_types = ["cheddar", "gouda", "camembert"]
   cheese = cheese_types & array
-
+  if cheese.empty?
+    return nil
+  else
     return cheese.join
+  end
 end
